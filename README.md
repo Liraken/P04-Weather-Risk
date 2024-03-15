@@ -11,9 +11,11 @@ This project aims to leverage neural networks and weather data to predict housin
 - In 'TBD' you can find .............
 
 ## Sources
-- https://www.zillow.com/research/data/
+# Weather
 - https://www.ncdc.noaa.gov/IPS/sd/sd.html)https://www.ncdc.noaa.gov/IPS/sd/sd.html
-	
+Hhousing
+- https://www.zillow.com/research/data/	
+
 ## Data Collection
 
 ## Citations
