@@ -1,1 +1,16 @@
 # P04-Machine-Learning
+![Header IMG](TBD)
+
+## File Location
+- In 'Images' you can find all images used in this project
+- In 'TBD' you can find .............
+- In 'TBD' you can find .............
+- In 'TBD' you can find .............
+
+## Sources
+- ......................
+- ......................
+	
+## Data Collection
+
+## Citations
