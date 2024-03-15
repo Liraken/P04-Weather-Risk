@@ -1,5 +1,5 @@
 # P04-Weather-Risk
-![Header IMG](Images/DALL·E WeatherRisk.webp)
+![Header IMG](Images/DALL·E_WeatherRisk.jpg)
 
 ## File Location
 - In 'Images' you can find all images used in this project
