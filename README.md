@@ -14,6 +14,7 @@ This project aims to leverage neural networks and weather data to predict housin
 ## Weather
 - https://www.ncei.noaa.gov/pub/data/swdi/stormevents/
 - https://drive.google.com/file/d/1bKw42VGYukQC664Zw9bPtlLiJvI7nj09/view?usp=sharing
+- https://www.ncei.noaa.gov/access/monitoring/reference-maps/
 
 ## Housing
 - https://www.zillow.com/research/data/	
