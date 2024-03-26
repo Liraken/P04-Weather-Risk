@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
-/Resources/storm_data.csv
-/Resources/data_preprocessed.csv
-/Resources/data_preprocessed_trunc.csv
+/Resources_Output/storm_data.csv
+/Resources_Output/data_preprocessed.csv
+/Resources_Output/data_preprocessed_trunc.csv
 TBD.twbx
 
 api_key.py
