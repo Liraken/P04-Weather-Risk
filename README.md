@@ -31,7 +31,7 @@ This project aims to leverage neural networks and weather data to predict housin
 	* Running a PCA analysis earlier in the process could potentially led to us keeping in PCA  
 	* Ran PCA analysis late in the process to evaluate the explained variance of the datetime parameter engineered in different ways:  
 	* Attempted:  
-	    < - Date split up into days, months, years, day of year, week of year, each as a different feature.  
+	    > - Date split up into days, months, years, day of year, week of year, each as a different feature.  
 	    ** Also tried grouping the datetimes by days, months, and years  
         ** Years created too small of a dataset(upon reflection, likely could have run a linear regression on the years)
 	        *** Days created a dataset where the explained variance was almost equal to property damage implying there was little relationship
