@@ -39,11 +39,11 @@ This project aims to leverage neural networks and weather data to predict housin
 	        - Attempted grouping the dates by days, months and years  
 	        - Attempted taking the sine and cosine of the timestamp  
 	        - Attempted taking the sine and cosine of the timestamp split into days, months and years  
-	    - Learning rate  
-	    - Reducing the learning rate reduced the amount of overfitting.  
-	    - Used a higher learning rate when attempting to test many hyperparameters with the parameter grid for loop to quickly assess the weakest hyperparameters.  
+	        - Learning rate  
+	        - Reducing the learning rate reduced the amount of overfitting.  
+	        - Used a higher learning rate when attempting to test many hyperparameters with the parameter grid for loop to quickly assess the weakest hyperparameters.  
 	* Timesteps  
-	* Timestep with the greatest r^2 value across the models trained was 7   
+		- Timestep with the greatest r^2 value across the models trained was 7   
 	* Batch size  
 	    - Reduced r^2 values more than testing the entire set at once  
 	* Layers  
