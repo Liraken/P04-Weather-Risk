@@ -6,10 +6,13 @@ This project aims to leverage neural networks and weather data to predict housin
 
 ## File Location
 - In 'Images' you can find all images used in this project
-- In 'TBD' you can find .............
-- In 'TBD' you can find .............
-- In 'TBD' you can find .............
+- In 'Data_cleaning' you can find a few python notebooks used to clean up our initial DF
+- In 'Machine_Learning' you can find a all of our machine learning work.
+- In 'Resources_Output' you can find a few files for our cleaned data some of this is too large and is gitignored
 - At https://public.tableau.com/app/profile/riley.capps/viz/USWeatherVSHousingPrices/Texas you can find a basic tableau project for this
+- At 'https://docs.google.com/presentation/d/1VCf4qmWdVo3sgTju3IOdZOJrTCPjoLN1Isv1cCpPP9Y/edit#slide=id.g26c8fcd9e6a_0_95' you can find our presentation used for this project
+
+
 # Sources
 ## Weather
 - https://www.ncei.noaa.gov/pub/data/swdi/stormevents/

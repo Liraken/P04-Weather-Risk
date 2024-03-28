@@ -3,6 +3,8 @@
 /Resources_Output/storm_data_filtered.csv
 /Resources_Output/data_preprocessed.csv
 /Resources_Output/data_preprocessed_trunc.csv
+/Data_cleaning/data_preprocessed.csv
+/Data_cleaning/data_preprocessed_trunc.csv
 US Weather VS Housing Prices.twbx
 
 api_key.py
