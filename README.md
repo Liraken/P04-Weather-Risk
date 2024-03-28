@@ -24,32 +24,32 @@ This project aims to leverage neural networks and weather data to predict housin
 
 ## Model Testing
 * Started trying to use guide that created a ‘window’ class in the tf ‘timeseries’ tutorial  
-	*Unsuccessful/unable to understand how to tweak the model  
-*Feature engineering  
-	*Dropped weather events, and regions very early in the process because we were having trouble achieving a r^2 value greater than 0  
-	*Realized extremely late in the process that we were inefficiently testing how useful the features  
-	*Running a PCA analysis earlier in the process could potentially led to us keeping in PCA  
-	*Ran PCA analysis late in the process to evaluate the explained variance of the datetime parameter engineered in different ways:  
-	*Attempted:  
-	    **Date split up into days, months, years, day of year, week of year, each as a different feature.  
-	    **Also tried grouping the datetimes by days, months, and years  
-        **Years created too small of a dataset(upon reflection, likely could have run a linear regression on the years)
-	        ***Days created a dataset where the explained variance was almost equal to property damage implying there was little relationship
-	    	***Turned the date into a unix timestamp  
-	        ***Attempted grouping the dates by days, months and years  
-	        ***Attempted taking the sine and cosine of the timestamp  
-	        ***Attempted taking the sine and cosine of the timestamp split into days, months and years  
-	    **Learning rate  
-	    **Reducing the learning rate reduced the amount of overfitting.  
-	    **Used a higher learning rate when attempting to test many hyperparameters with the parameter grid for loop to quickly assess the weakest hyperparameters.  
-	*Timesteps  
-	*Timestep with the greatest r^2 value across the models trained was 7   
-	*Batch size  
-	    **Reduced r^2 values more than testing the entire set at once  
-	*Layers  
-    	*Neurons  
-	*Return sequences  
-        	**Created a return sequence that tests the r^2 value for validation data and autostops the model from training
+	* Unsuccessful/unable to understand how to tweak the model  
+* Feature engineering  
+	* Dropped weather events, and regions very early in the process because we were having trouble achieving a r^2 value greater than 0  
+	* Realized extremely late in the process that we were inefficiently testing how useful the features  
+	* Running a PCA analysis earlier in the process could potentially led to us keeping in PCA  
+	* Ran PCA analysis late in the process to evaluate the explained variance of the datetime parameter engineered in different ways:  
+	* Attempted:  
+	    ** Date split up into days, months, years, day of year, week of year, each as a different feature.  
+	    ** Also tried grouping the datetimes by days, months, and years  
+        ** Years created too small of a dataset(upon reflection, likely could have run a linear regression on the years)
+	        *** Days created a dataset where the explained variance was almost equal to property damage implying there was little relationship
+	    	*** Turned the date into a unix timestamp  
+	        *** Attempted grouping the dates by days, months and years  
+	        *** Attempted taking the sine and cosine of the timestamp  
+	        *** Attempted taking the sine and cosine of the timestamp split into days, months and years  
+	    ** Learning rate  
+	    ** Reducing the learning rate reduced the amount of overfitting.  
+	    ** Used a higher learning rate when attempting to test many hyperparameters with the parameter grid for loop to quickly assess the weakest hyperparameters.  
+	* Timesteps  
+	* Timestep with the greatest r^2 value across the models trained was 7   
+	* Batch size  
+	    ** Reduced r^2 values more than testing the entire set at once  
+	* Layers  
+    	* Neurons  
+	* Return sequences  
+        	** Created a return sequence that tests the r^2 value for validation data and autostops the model from training
 
 
 ## Citations
