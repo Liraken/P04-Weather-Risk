@@ -31,9 +31,9 @@ This project aims to leverage neural networks and weather data to predict housin
 	* Running a PCA analysis earlier in the process could potentially led to us keeping in PCA  
 	* Ran PCA analysis late in the process to evaluate the explained variance of the datetime parameter engineered in different ways:  
 	* Attempted:  
-	    -  Date split up into days, months, years, day of year, week of year, each as a different feature.  
-	    -  Also tried grouping the datetimes by days, months, and years  
-            -  Years created too small of a dataset(upon reflection, likely could have run a linear regression on the years)
+	        -  Date split up into days, months, years, day of year, week of year, each as a different feature.  
+	        -  Also tried grouping the datetimes by days, months, and years  
+                -  Years created too small of a dataset(upon reflection, likely could have run a linear regression on the years)
 	        - Days created a dataset where the explained variance was almost equal to property damage implying there was little relationship
 	    	- Turned the date into a unix timestamp  
 	        - Attempted grouping the dates by days, months and years  
@@ -45,7 +45,7 @@ This project aims to leverage neural networks and weather data to predict housin
 	* Timesteps  
 		- Timestep with the greatest r^2 value across the models trained was 7   
 	* Batch size  
-	    - Reduced r^2 values more than testing the entire set at once  
+	   	 - Reduced r^2 values more than testing the entire set at once  
 	* Layers  
     	* Neurons  
 	* Return sequences  
