@@ -23,7 +23,7 @@ This project aims to leverage neural networks and weather data to predict housin
 - https://www.zillow.com/research/data/	
 
 ## Model Testing
-*Started trying to use guide that created a ‘window’ class in the tf ‘timeseries’ tutorial  
+* Started trying to use guide that created a ‘window’ class in the tf ‘timeseries’ tutorial  
 	*Unsuccessful/unable to understand how to tweak the model  
 *Feature engineering  
 	*Dropped weather events, and regions very early in the process because we were having trouble achieving a r^2 value greater than 0  
