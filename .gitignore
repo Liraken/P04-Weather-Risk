@@ -1,8 +1,8 @@
 # Byte-compiled / optimized / DLL files
 /Resources_Output/storm_data.csv
 /Resources_Output/storm_data_filtered.csv
-/Data_cleaning/data_preprocessed.csv
-/Data_cleaning/data_preprocessed_trunc.csv
+/Resources_Output/data_preprocessed.csv
+/Resources_Output/data_preprocessed_trunc.csv
 US Weather VS Housing Prices.twbx
 
 api_key.py
