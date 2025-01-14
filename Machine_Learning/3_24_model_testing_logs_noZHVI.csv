@@ -1,0 +1,19 @@
+,Layers,Neurons,Timesteps,Test_R^2,Additional_notes
+0,2,9,5,0.041060306,
+1,2,9,5,0.037341538,increased learning rate from 0.00001 to 0.0001
+2,2,9,5,-0.166012512,increased learning rate from 0.00001 to 0.0001
+3,2,9,5,-0.035525631,added 0.2 dropout layer
+4,2,9,5,-0.010439122,increased dropout to 0.4
+5,2,9,5,-0.220661771,reduced learning rate to 0.00001
+6,3,9,5,-0.083424031,reduced learning rate to 0.00001
+7,2,9,5,-0.259302895,testing best model
+8,2,9,5,-0.017739334,testing best model
+9,2,5,5,0.024612424673305155,
+10,2,5,5,-0.077534969,Increased learning rate
+11,2,5,5,-0.226121953,reduced learning rate to 0.00005
+12,2,5,3,-0.0055205,reduced timestep
+13,2,5,7,-1.780631269,increased timestep
+14,2,5,9,-0.016023858,Increased timestep
+15,2,5,9,-4.780623904,reduced learning rate
+16,2,5,9,-0.869373245,retesting model
+17,2,17,13,0.087842697,testing next model
